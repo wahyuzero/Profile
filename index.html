@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FrugalDev - Coding on a smartphone, dreaming of hacking NASA. Personal portfolio of Wahyu, a mobile-first developer from Central Java.">
+    <meta name="keywords" content="developer, portfolio, mobile coding, frugal developer, Wahyu, Central Java">
+    <meta name="google-site-verification" content="0bHgB2xUsH3Rc3gXmF90qgf1aYn_MDyicbDrl4sfAEs" />
+    <title>FrugalDev | Mobile Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-text" id="loadingText">Loading FrugalDev...</div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">FrugalDev</div>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#lifestyle">Lifestyle</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#dreamboard">Dreams</a></li>
+                    <li><a href="#tech-stack">Tech Stack</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>FrugalDev</h1>
+                <h2>Coding on a smartphone, dreaming of hacking NASA.</h2>
+                <p>Passionate about coding with only a phone, loves free tools, small memory (12KB brain) but unlimited dreams.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://i.postimg.cc/286zxyb5/Screenshot-20250521-233629-Linked-In.jpg" alt="Wahyu - FrugalDev">
+                </div>
+                <div class="about-text">
+                    <h3>Hi, I'm Wahyu from Central Java</h3>
+                    <p>I'm a developer who believes great code can be written anywhere, even on a budget smartphone. I've turned my limitations into strengths by focusing on efficient, lightweight solutions that deliver maximum impact with minimal resources.</p>
+                    
+                    <div class="fun-facts">
+                        <h4>Fun Facts About Me:</h4>
+                        <ul>
+                            <li><i class="fas fa-mobile-alt"></i> Codes using only a smartphone</li>
+                            <li><i class="fas fa-money-bill-wave"></i> Addicted to free tools</li>
+                            <li><i class="fas fa-lightbulb"></i> Highly imaginative</li>
+                            <li><i class="fas fa-brain"></i> Certified 12KB brain (but optimized!)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lifestyle Section -->
+    <section class="lifestyle" id="lifestyle">
+        <div class="container">
+            <h2 class="section-title">My Lifestyle</h2>
+            <div class="quotes-container">
+                <div class="quote-card">
+                    <p class="quote-text">Coding with a frugal mindset.</p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">Coding while chilling and lying down, avoiding unnecessary complexity.</p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">Full dreamer mode — sometimes coding until falling asleep.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="project-details">
+                        <h3>Mobile Code Editor</h3>
+                        <p>A lightweight code editor optimized for smartphones with syntax highlighting and auto-complete.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <div class="project-details">
+                        <h3>Termux Scripts</h3>
+                        <p>Collection of productivity scripts for Termux to enhance mobile development workflow.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="project-details">
+                        <h3>MicroFramework</h3>
+                        <p>Ultra-lightweight (2KB) CSS framework designed specifically for low-resource environments.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <div class="project-details">
+                        <h3>Budget Tracker</h3>
+                        <p>Tracking and monitoring budget</p>
+                        <div class="project-links">
+                            <a href="/fg-budget"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dream Board Section -->
+    <section class="dreamboard" id="dreamboard">
+        <div class="container">
+            <h2 class="section-title">Dream Board</h2>
+            <div class="sticky-notes">
+                <div class="sticky-note">
+                    <h3>Hack NASA</h3>
+                    <p>Using only a smartphone and Termux. Someday...</p>
+                </div>
+                <div class="sticky-note">
+                    <h3>12KB App Challenge</h3>
+                    <p>Create a fully functional app in just 12KB of code</p>
+                </div>
+                <div class="sticky-note">
+                    <h3>Code While Hiking</h3>
+                    <p>Set up a mobile workstation on Mount Semeru</p>
+                </div>
+                <div class="sticky-note">
+                    <h3>World's Smallest CMS</h3>
+                    <p>A CMS that fits in a single SMS message</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack" id="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="tools-container">
+                <div class="tool-item">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Termux</h3>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Acode</h3>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub Mobile</h3>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-server"></i>
+                    <h3>Vercel</h3>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-gear"></i>
+                    <h3>Eruda for DevTools</h3>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="tool-item">
+                    <i class="fa-brands fa-node-js"></i>
+                    <h3>Node JS</h3>
+                </div>
+                <div class="tool-item">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Code Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <h3>Lightweight Fetch Wrapper</h3>
+                    <pre>// Tiny fetch wrapper (just 12 lines!)
+const api = {
+  get: async (url) => {
+    try {
+      const res = await fetch(url);
+      return await res.json();
+    } catch (err) {
+      console.error('API Error:', err);
+      return null;
+    }
+  }
+};</pre>
+                </div>
+                <div class="gallery-item">
+                    <h3>CSS Micro-Framework</h3>
+                    <pre>/* Minimal CSS Reset + Utilities */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { display: flex; }
+.col { flex-direction: column; }
+.center { 
+  justify-content: center; 
+  align-items: center; 
+}</pre>
+                </div>
+                <div class="gallery-item">
+                    <h3>Shell Script Helper</h3>
+                    <pre>#!/bin/bash
+# Quick mobile dev setup
+mkdir -p $1/{css,js,img}
+touch $1/index.html
+touch $1/css/style.css
+touch $1/js/app.js
+echo "Project $1 created successfully!"</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-links">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <a href="https://www.linkedin.com/in/wahyuft">
+                            <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <a href="https://www.linkedin.com/in/wahyuft">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <a href="https://github.com/wahyuzero">
+                            <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <a href="https://github.com/wahyuzero">GitHub</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <a href="https://instagram.com/dividedwestand5">
+                            <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <a href="https://instagram.com/dividedwestand5">Instagram</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <a href="https://facebook.com/dabelo7">
+                            <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <a href="https://facebook.com/dabelo7">Fesnuk</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <a href="mailto:wahyuzeros@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        <a href="mailto:wahyuzeros@gmail.com">Email</a>
+                    </div>
+                </div>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/6285868096512" class="btn">Let's Collab</a>
+                    <a href="https://wa.me/6285868096512" class="btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FrugalDev. Coded with love on a smartphone.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
